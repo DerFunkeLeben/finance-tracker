@@ -1,4 +1,4 @@
-export type TransactionType = 'income' | 'expense'
+import { TransactionType } from "@/shared/types/transactionTypes"
 
 export interface Transaction {
   id: string

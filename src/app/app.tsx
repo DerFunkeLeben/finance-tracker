@@ -1,3 +1,6 @@
-import React, { FC } from 'react'
+import { AppRouter } from './router/appRouter'
+import { withProviders } from './providers'
 
-export const App: FC = () => <div>App</div>
+const App = () => <AppRouter />
+
+export default withProviders(App)
